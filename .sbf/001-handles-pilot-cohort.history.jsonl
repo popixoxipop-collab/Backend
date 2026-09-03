@@ -1,0 +1,3 @@
+{"schema":"sbf.gate-event/1","event":"awaiting_disposition","gate":"scan","at":"2026-09-03T05:38:43.655Z","status":"awaiting_disposition","token":"sha256:2761183f79504a86ea89b1ab1fcd1698cb4eff8fe71117b036b70c555907f7ea","forced":false,"reason":null}
+{"schema":"sbf.gate-event/1","event":"pass","gate":"scan","at":"2026-09-03T05:38:57.460Z","status":"pass","token":"sha256:18da86eaa0f387ea76411e9cdb0e90a873a5fdfa1311c2b7b43ca7751c35d278","forced":false,"reason":null}
+{"schema":"sbf.gate-event/1","event":"pass","gate":"contract","at":"2026-09-03T05:41:42.823Z","status":"pass","token":"sha256:4fcd0020733b20716ada0e479ba3ea8e62b43e4eaa03650632fd661e1faa8547","forced":false,"reason":null}
