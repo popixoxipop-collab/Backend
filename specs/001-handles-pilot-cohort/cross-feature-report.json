@@ -1,0 +1,15 @@
+{
+  "schema": "sbf.cross-feature-report/1",
+  "feature_id": "001-handles-pilot-cohort",
+  "generated_at": "2026-09-03T13:07:29.832Z",
+  "findings": [],
+  "fk_check": {
+    "mode": "unavailable",
+    "schema": null,
+    "source_feature": null,
+    "generated_at": null
+  },
+  "unknowns": [
+    "no live DB foreign-key data available to check -- pass --db --database-url-env <NAME> to `bskel scan cross-feature-check`, or run `bskel scan --feature <id> --db --database-url-env <NAME>` at least once to persist a snapshot this check can reuse"
+  ]
+}

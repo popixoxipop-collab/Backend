@@ -1,0 +1,93 @@
+package com.bigproject.backend.global.handle;
+
+import org.springframework.security.core.Authentication;
+
+import java.util.UUID;
+
+/**
+ * One implementation per resource type, registered as a {@code @Component} so Spring collects
+ * them into a {@code Map<String, ResourceResolver>} (bean name -&gt; resolver) that
+ * {@link HandleController} dispatches through by decoded handle {@code type} -- no reflection,
+ * an unknown type is just a missing map key.
+ *
+ * <p>{@code fetch}/{@code patchField} return/accept plain {@code Object} (typically the
+ * resource's existing response DTO) rather than a fixed type, since resolvers are registered
+ * generically -- {@link HandleController#fetch} serializes whatever {@code fetch} returns
+ * through Jackson and walks a JSON Pointer with {@code JsonNode#at} for field-level (kind=f)
+ * addressing.
+ */
+public interface ResourceResolver {
+
+	/** Must match the {@code type} segment used when this resource's handles were minted (e.g. "Organization"). */
+	String type();
+
+	/**
+	 * Fetches the whole resource, serialized the same shape its normal API response uses.
+	 *
+	 * <p>{@code authentication} is the SAME object {@link HandleController} already reads via
+	 * {@code SecurityContextHolder.getContext().getAuthentication()} for its own {@code
+	 * requireAuthority()} check, passed through verbatim -- for the common case (role-only
+	 * authorization, already fully covered by {@link #requiredAuthority()}) implementations
+	 * ignore this parameter entirely. It exists for resources whose real read path is scoped by
+	 * something {@code requiredAuthority()}'s single role string cannot express -- tenant/
+	 * organization/ownership scoping derived from the caller's own identity (e.g. an org id
+	 * carried in {@code authentication.getDetails()}), the same information the resource's real,
+	 * hand-written controller already reads from {@code Authentication} to enforce that scoping
+	 * itself. The framework interprets nothing here and never will -- same "never guess-modify
+	 * hand-written code" boundary {@link #patchField} already follows; a hand-written resolver
+	 * derives whatever it needs from this object using the target app's own existing helper (e.g.
+	 * mirroring the source controller's own extraction logic), never a guess this generator makes.
+	 */
+	Object fetch(UUID resourceUid, Authentication authentication);
+
+	/**
+	 * Applies a single field-level patch. Implementations route through the resource's EXISTING
+	 * update path (its real service method + DTO) rather than raw persistence access, so
+	 * existing validation/business rules keep applying -- see the generated resolver stub for
+	 * this feature's target module for the specific pattern to follow (some DTOs use {@code
+	 * PatchField<T>} for null-has-meaning fields, most just treat null-vs-absent as "unchanged",
+	 * and some require re-submitting the whole object; check the target DTO before assuming).
+	 *
+	 * <p>{@code authentication}: see {@link #fetch}'s own javadoc -- same object, same purpose,
+	 * ignored by implementations that don't need it.
+	 */
+	void patchField(UUID resourceUid, String pointer, Object value, Authentication authentication);
+
+	/**
+	 * The literal Spring Security granted-authority string required to {@code fetch}/{@code
+	 * recover} this resource type via a handle -- e.g. {@code "ROLE_ADMIN"} when the source
+	 * {@code @PreAuthorize} was {@code hasRole('ADMIN')} (Spring implicitly applies the
+	 * {@code ROLE_} prefix), or a bare value like {@code "ADMIN"} when the source was
+	 * {@code hasAuthority('ADMIN')} (no prefix). This distinction is decided once, at
+	 * {@code bskel handles plan} time, by {@code extractPreAuthorize()} -- callers of this method
+	 * never need to know which source annotation shape produced the value; they compare it
+	 * verbatim against a granted authority. O5 (D-resolver-authorization-action-aware): derived
+	 * from the entity's FETCH (GET) endpoint's own {@code @PreAuthorize} -- deliberately NOT
+	 * reused for {@link #patchField}, which has its own {@link #requiredAuthorityForPatch()}
+	 * derived from the entity's real UPDATE endpoint instead, since a real app's GET and PATCH
+	 * endpoints can (and often do) require genuinely different roles.
+	 */
+	String requiredAuthority();
+
+	/**
+	 * O5 (D-resolver-authorization-action-aware): the {@code patchField} counterpart to {@link
+	 * #requiredAuthority()} -- derived independently from the entity's UPDATE (PATCH/PUT)
+	 * endpoint's own {@code @PreAuthorize}, not copied from the fetch endpoint's role. Before this
+	 * existed, {@link HandleController#patch} silently reused {@link #requiredAuthority()},
+	 * enforcing the wrong role whenever a real app's GET and PATCH endpoints genuinely differed.
+	 */
+	String requiredAuthorityForPatch();
+
+	/**
+	 * O4 (D-handle-lifecycle): the content hash of the feature contract this resolver was
+	 * generated from -- baked in at {@code bskel handles emit} time (regenerated every run, so a
+	 * contract change is picked up automatically), never read from disk at runtime (a deployed
+	 * app has no access to {@code specs/} at all). {@link HandleService#register} stores this as
+	 * a registry row's {@code contract_ref}; {@code recover}'s {@code schema_drift} check compares
+	 * a snapshot's own recorded hash against the CURRENT value of this method, not a stale one.
+	 */
+	String contractRef();
+
+	/** O4 (D-handle-lifecycle): the feature_uid this resolver was generated for, baked in the same way as {@link #contractRef()}. */
+	UUID featureUid();
+}

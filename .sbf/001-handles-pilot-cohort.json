@@ -806,6 +806,32 @@
           "description_skipped_flag": 14
         }
       }
+    },
+    "cross_feature": {
+      "status": "pass",
+      "token": "sha256:85d57baf0a41b13e9323c392a2542d0330267acb4c2cf19ed629de2afb19364e",
+      "inputs": {
+        "cross_feature_report_hash": "1fc70578f48e159357d50848f25c9ea0d3632b3f55fec1a4904aabe840e9f220",
+        "cross_feature_resolution_hash": null
+      },
+      "at": "2026-09-03T13:07:29.836Z",
+      "evidence": {
+        "finding_count": 0,
+        "high_confidence_count": 0,
+        "waived_count": 0,
+        "stale_waivers": 0
+      }
+    },
+    "handles": {
+      "status": "pass",
+      "token": "sha256:10b3fa2476e1312d1283a4aa0630c390c4c987015f52230dcb417e2e4009ba77",
+      "inputs": {
+        "contract_hash": "3f52b6e441cda806d877f87ea35ff6417c5effee89b3105ec5e0a25bafd364ef"
+      },
+      "at": "2026-09-03T13:07:41.903Z",
+      "evidence": {
+        "resolverStubs": []
+      }
     }
   }
 }
