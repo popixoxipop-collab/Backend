@@ -1,7 +1,7 @@
 {
   "schema": "sbf.cross-feature-report/1",
   "feature_id": "001-handles-pilot-cohort",
-  "generated_at": "2026-09-03T13:07:29.832Z",
+  "generated_at": "2026-09-03T14:09:45.507Z",
   "findings": [],
   "fk_check": {
     "mode": "unavailable",

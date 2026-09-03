@@ -913,6 +913,141 @@
       ]
     },
     {
+      "module": "global",
+      "controllers": [
+        {
+          "className": "HandleController",
+          "basePath": "/handles",
+          "operationIds": [],
+          "endpoints": [
+            {
+              "verb": "GET",
+              "path": "/handles/{handle}",
+              "operationId": null,
+              "method": "fetch",
+              "line": 58
+            },
+            {
+              "verb": "PATCH",
+              "path": "/handles/{handle}",
+              "operationId": null,
+              "method": "patch",
+              "line": 87
+            },
+            {
+              "verb": "GET",
+              "path": "/handles/{handle}/recover",
+              "operationId": null,
+              "method": "recover",
+              "line": 113
+            }
+          ],
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 41
+        }
+      ],
+      "entities": [
+        {
+          "className": "HandleRegistry",
+          "table": "sbf_handle",
+          "tableSource": "explicit",
+          "idField": "handleUid",
+          "idFieldType": "UUID",
+          "idFieldIsUuid": true,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+          "line": 29
+        },
+        {
+          "className": "HandleSnapshot",
+          "table": "sbf_handle_snapshot",
+          "tableSource": "explicit",
+          "idField": "snapshotId",
+          "idFieldType": "Long",
+          "idFieldIsUuid": false,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+          "line": 32
+        }
+      ],
+      "enums": [],
+      "dtos": [],
+      "score": 54,
+      "evidence": [
+        {
+          "signal": "controller_class",
+          "term": "handles",
+          "value": "HandleController",
+          "weight": 6,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 41
+        },
+        {
+          "signal": "controller_path",
+          "term": "handles",
+          "value": "/handles",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 41
+        },
+        {
+          "signal": "endpoint_path",
+          "term": "handles",
+          "value": "/handles/{handle}",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 58
+        },
+        {
+          "signal": "endpoint_path",
+          "term": "handles",
+          "value": "/handles/{handle}",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 87
+        },
+        {
+          "signal": "endpoint_path",
+          "term": "handles",
+          "value": "/handles/{handle}/recover",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 113
+        },
+        {
+          "signal": "entity_table",
+          "term": "handles",
+          "value": "sbf_handle",
+          "weight": 8,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+          "line": 29
+        },
+        {
+          "signal": "entity_class",
+          "term": "handles",
+          "value": "HandleRegistry",
+          "weight": 6,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+          "line": 29
+        },
+        {
+          "signal": "entity_table",
+          "term": "handles",
+          "value": "sbf_handle_snapshot",
+          "weight": 8,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+          "line": 32
+        },
+        {
+          "signal": "entity_class",
+          "term": "handles",
+          "value": "HandleSnapshot",
+          "weight": 6,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+          "line": 32
+        }
+      ],
+      "capped_signals": []
+    },
+    {
       "module": "member",
       "controllers": [
         {
@@ -4094,6 +4229,141 @@
       ]
     },
     {
+      "module": "global",
+      "controllers": [
+        {
+          "className": "HandleController",
+          "basePath": "/handles",
+          "operationIds": [],
+          "endpoints": [
+            {
+              "verb": "GET",
+              "path": "/handles/{handle}",
+              "operationId": null,
+              "method": "fetch",
+              "line": 58
+            },
+            {
+              "verb": "PATCH",
+              "path": "/handles/{handle}",
+              "operationId": null,
+              "method": "patch",
+              "line": 87
+            },
+            {
+              "verb": "GET",
+              "path": "/handles/{handle}/recover",
+              "operationId": null,
+              "method": "recover",
+              "line": 113
+            }
+          ],
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 41
+        }
+      ],
+      "entities": [
+        {
+          "className": "HandleRegistry",
+          "table": "sbf_handle",
+          "tableSource": "explicit",
+          "idField": "handleUid",
+          "idFieldType": "UUID",
+          "idFieldIsUuid": true,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+          "line": 29
+        },
+        {
+          "className": "HandleSnapshot",
+          "table": "sbf_handle_snapshot",
+          "tableSource": "explicit",
+          "idField": "snapshotId",
+          "idFieldType": "Long",
+          "idFieldIsUuid": false,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+          "line": 32
+        }
+      ],
+      "enums": [],
+      "dtos": [],
+      "score": 54,
+      "evidence": [
+        {
+          "signal": "controller_class",
+          "term": "handles",
+          "value": "HandleController",
+          "weight": 6,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 41
+        },
+        {
+          "signal": "controller_path",
+          "term": "handles",
+          "value": "/handles",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 41
+        },
+        {
+          "signal": "endpoint_path",
+          "term": "handles",
+          "value": "/handles/{handle}",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 58
+        },
+        {
+          "signal": "endpoint_path",
+          "term": "handles",
+          "value": "/handles/{handle}",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 87
+        },
+        {
+          "signal": "endpoint_path",
+          "term": "handles",
+          "value": "/handles/{handle}/recover",
+          "weight": 5,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "line": 113
+        },
+        {
+          "signal": "entity_table",
+          "term": "handles",
+          "value": "sbf_handle",
+          "weight": 8,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+          "line": 29
+        },
+        {
+          "signal": "entity_class",
+          "term": "handles",
+          "value": "HandleRegistry",
+          "weight": 6,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+          "line": 29
+        },
+        {
+          "signal": "entity_table",
+          "term": "handles",
+          "value": "sbf_handle_snapshot",
+          "weight": 8,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+          "line": 32
+        },
+        {
+          "signal": "entity_class",
+          "term": "handles",
+          "value": "HandleSnapshot",
+          "weight": 6,
+          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+          "line": 32
+        }
+      ],
+      "capped_signals": []
+    },
+    {
       "module": "member",
       "controllers": [
         {
@@ -6407,6 +6677,8 @@
     "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/ClassroomRepository.java",
     "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/CohortMemberRepository.java",
     "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/CohortRepository.java",
+    "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/CohortResolver.java",
+    "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/CohortResolverPolicy.java",
     "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/JdbcClassroomDependencyRepository.java",
     "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/JdbcCohortDependencyRepository.java",
     "src/main/java/com/bigproject/backend/domain/academicoperations/infrastructure/JdbcManagerDirectoryRepository.java",
@@ -7067,6 +7339,17 @@
     "src/main/java/com/bigproject/backend/global/exception/ApiExceptionHandler.java",
     "src/main/java/com/bigproject/backend/global/exception/ErrorResponse.java",
     "src/main/java/com/bigproject/backend/global/exception/GlobalExceptionHandler.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleAspect.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleCodec.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleRegistryRepository.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleService.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleSnapshotRepository.java",
+    "src/main/java/com/bigproject/backend/global/handle/HandleSnapshotRetentionScheduler.java",
+    "src/main/java/com/bigproject/backend/global/handle/RecordHandleSnapshot.java",
+    "src/main/java/com/bigproject/backend/global/handle/ResourceResolver.java",
     "src/main/java/com/bigproject/backend/global/json/PatchField.java",
     "src/main/java/com/bigproject/backend/global/json/PatchFieldDeserializer.java",
     "src/main/java/com/bigproject/backend/global/security/ClientIpAddresses.java",
@@ -7084,8 +7367,8 @@
   "feature_id": "001-handles-pilot-cohort",
   "disposition": {
     "mode": "extend",
-    "note": "handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController",
+    "note": "handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring",
     "module": "academicoperations",
-    "at": "2026-09-03T05:38:57.395Z"
+    "at": "2026-09-03T14:09:45.257Z"
   }
 }

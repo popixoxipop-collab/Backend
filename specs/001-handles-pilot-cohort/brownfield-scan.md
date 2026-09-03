@@ -60,6 +60,14 @@
 - Enum `Level`: CLASS, TEAM
 - DTOs: ActionRequiredResponse, CohortComparisonResponse, ConceptScopeResponse, GroupGapResponse, ManagerHeatmapResponse, RiskSignalResponse, RiskTraineeRateResponse
 
+### `global` (score: 54 -- run `bskel scan explain global` for the evidence breakdown)
+- Controller `HandleController` (base path `/handles`), 3 endpoint(s):
+  - `GET /handles/{handle}` -- operationId `(unmatched)` (`fetch`)
+  - `PATCH /handles/{handle}` -- operationId `(unmatched)` (`patch`)
+  - `GET /handles/{handle}/recover` -- operationId `(unmatched)` (`recover`)
+- Entity `HandleRegistry` -> table `sbf_handle`, PK field `handleUid`
+- Entity `HandleSnapshot` -> table `sbf_handle_snapshot`, PK field `snapshotId`
+
 ### `member` (score: 50 -- run `bskel scan explain member` for the evidence breakdown)
 - Controller `AccountLockController` (base path `/members/organizations/{organizationId}`), 1 endpoint(s):
   - `PATCH /members/organizations/{organizationId}/users/{userId}/login-lock` -- operationId `updateLoginLock` (`updateLoginLock`)
@@ -264,7 +272,7 @@
 
 ## Disposition
 
-**Mode**: `extend` (recorded 2026-09-03T05:38:57.395Z)
+**Mode**: `extend` (recorded 2026-09-03T14:09:45.257Z)
 
-handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController
+handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring
 
