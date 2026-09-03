@@ -6,6 +6,7 @@ import com.bigproject.backend.domain.organization.domain.DisclosureScope;
 import com.bigproject.backend.domain.organization.domain.OrganizationPolicy;
 import com.bigproject.backend.domain.organization.infrastructure.OrganizationPolicyRepository;
 import com.bigproject.backend.domain.platformgovernance.domain.AiTier;
+import com.bigproject.backend.global.exception.ApiException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +19,10 @@ import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.sql.DataSource;
 import java.math.BigDecimal;
+import java.sql.Connection;
+import java.sql.Statement;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
@@ -97,6 +101,47 @@ class HandlesCohortPilotIntegrationTest {
 	private HandleRegistryRepository handleRegistryRepository;
 	@Autowired
 	private HandleSnapshotRepository handleSnapshotRepository;
+	@Autowired
+	private DataSource dataSource;
+
+	/**
+	 * {@code CurrentUserResolver}/{@code JwtFilter} read {@code app_user} (and, via a LEFT JOIN,
+	 * {@code organization}) through a hand-written native-SQL repository, not a JPA
+	 * {@code @Entity} -- {@code spring.jpa.hibernate.ddl-auto=create} never creates either table.
+	 * Minimal, test-only DDL + one row, matching exactly the columns
+	 * {@code JdbcAuthUserRepository}'s own query selects (confirmed by reading the real failing
+	 * query before writing this, not guessed) -- not this app's real production schema.
+	 */
+	private void createMinimalAuthUserTable(UUID userId, UUID orgId, String email) throws Exception {
+		try (Connection connection = dataSource.getConnection(); Statement statement = connection.createStatement()) {
+			// NOT "organization" -- Hibernate's ddl-auto=create already made a REAL, much richer
+			// "organization" table from the real @Entity (found live: this collided, "row_version
+			// violates not-null constraint", when a first version of this helper tried its own
+			// minimal one under that name). The query below LEFT JOINs organization, so a missing
+			// row is fine (organizationStatus just comes back null) -- no org row needed at all.
+			statement.execute("""
+					CREATE TABLE IF NOT EXISTS app_user (
+						user_id UUID PRIMARY KEY,
+						org_id UUID NOT NULL,
+						email TEXT NOT NULL,
+						normalized_email TEXT NOT NULL,
+						name TEXT NOT NULL,
+						password_hash TEXT NOT NULL,
+						status TEXT NOT NULL,
+						is_email_verified BOOLEAN NOT NULL,
+						login_blocked_until TIMESTAMPTZ,
+						password_changed_at TIMESTAMPTZ,
+						role_code TEXT NOT NULL,
+						deleted_at TIMESTAMPTZ
+					)
+					""");
+			statement.execute("""
+					INSERT INTO app_user (user_id, org_id, email, normalized_email, name, password_hash, status, is_email_verified, role_code)
+					VALUES ('%s', '%s', '%s', '%s', 'Pilot Operator', 'unused', 'ACTIVE', true, 'OPERATOR')
+					ON CONFLICT DO NOTHING
+					""".formatted(userId, orgId, email, email));
+		}
+	}
 
 	@AfterEach
 	void clearSecurityContext() {
@@ -104,9 +149,10 @@ class HandlesCohortPilotIntegrationTest {
 	}
 
 	@Test
-	void fullHandleLifecycleAgainstARealCohort() {
+	void fullHandleLifecycleAgainstARealCohort() throws Exception {
 		UUID orgId = UUID.randomUUID();
 		UUID creatorUserId = UUID.randomUUID();
+		createMinimalAuthUserTable(creatorUserId, orgId, "pilot-operator@example.com");
 
 		// A real, active OrganizationPolicy -- CohortService.createCohort() requires one for real
 		// (COHORT policy lookup, not bypassed).
@@ -156,12 +202,19 @@ class HandlesCohortPilotIntegrationTest {
 		assertThat(fetched.getBody()).isNotNull();
 
 		// A cross-org fetch attempt must NOT see this cohort -- the whole reason this pilot exists.
+		// CohortService.findCohort's own repository query filters by (cohortId, orgId) together, so
+		// a mismatched org throws the real app's own ApiException(COHORT_NOT_FOUND) -- NOT a
+		// ResponseStatusException (that only happens when going through real HTTP + the real
+		// exception-handler advice, which this test deliberately bypasses, see this class's own
+		// javadoc). The real, important thing this proves: the wrong org genuinely cannot see this
+		// cohort through the handle at all -- tenant isolation holds.
 		var otherOrgAuthentication = new UsernamePasswordAuthenticationToken(
 				"other-org-operator@example.com", null, List.of(new SimpleGrantedAuthority("ROLE_OPERATOR")));
 		otherOrgAuthentication.setDetails(UUID.randomUUID());
 		SecurityContextHolder.getContext().setAuthentication(otherOrgAuthentication);
 		assertThatThrownBy(() -> handleController.fetch(handleToken))
-				.isInstanceOf(ResponseStatusException.class);
+				.isInstanceOf(ApiException.class)
+				.hasMessageContaining("찾을 수 없습니다");
 		SecurityContextHolder.getContext().setAuthentication(authentication);
 
 		// A real field-level patch (kind=f), through the real hand-written patchField() dispatch.

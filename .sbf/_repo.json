@@ -4,13 +4,13 @@
   "gates": {
     "preflight": {
       "status": "pass",
-      "token": "sha256:b38d04a44a3202aeaa74dafc749963b1f2643d1069017d00526f13ab2b0a930c",
+      "token": "sha256:29383185a4b36f53648fb80cdb13be4892c7dc16684159a32bc05dc4944127fb",
       "inputs": {
         "default_branch": "develop",
-        "head_sha": "73f7ab4eced19432f88bb85b042e9e808ae21407",
+        "head_sha": "8bce7f209beed7a0851caef7c7c04b61ce09fc93",
         "origin_tip_sha": "5041a0842d79fddda38ddf8af8d220c000b71cba"
       },
-      "at": "2026-09-03T13:07:19.160Z",
+      "at": "2026-09-03T13:55:57.172Z",
       "evidence": {
         "default_branch": "develop",
         "source_of_truth": {
@@ -18,16 +18,16 @@
           "remote_show": "develop",
           "gh_api": "develop"
         },
-        "head_sha": "73f7ab4eced19432f88bb85b042e9e808ae21407",
+        "head_sha": "8bce7f209beed7a0851caef7c7c04b61ce09fc93",
         "merge_base": "5041a0842d79fddda38ddf8af8d220c000b71cba",
         "behind": 0,
-        "ahead": 2,
+        "ahead": 3,
         "base_age_days": 0,
         "worktree_path": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort",
         "current_branch": "feat/handles-pilot-cohort",
-        "created_from": "5041a08 feat/handles-pilot-cohort@{2}: branch: Created from origin/develop",
+        "created_from": "5041a08 feat/handles-pilot-cohort@{3}: branch: Created from origin/develop",
         "origin_tip_sha": "5041a0842d79fddda38ddf8af8d220c000b71cba",
-        "checked_at": "2026-09-03T13:07:19Z",
+        "checked_at": "2026-09-03T13:55:57Z",
         "worktree_dirty": false,
         "fetch": "ok",
         "policy": {

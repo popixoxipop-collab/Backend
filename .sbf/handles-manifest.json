@@ -67,9 +67,9 @@
       "owner": "_repo",
       "provider": "java-spring",
       "template": "HandleService.java.tmpl",
-      "template_hash": "44fd5b364025d5be46ad3262ff963851ed42af8c58ec52e47da8bb03b0092239",
-      "generated_hash": "29d9874a3b8955d5e36bc984350fd27774fe7b35904f7a16c465fb8f825107d9",
-      "updated_at": "2026-09-03T13:07:41.897Z"
+      "template_hash": "54ff9a0954e66dfb12182a1f85da62e39646f15f8761b4657a35c194616e7b39",
+      "generated_hash": "532a88652218e4dcc11d005cae72a7b0b68607c16449f9f2b48699d78a218875",
+      "updated_at": "2026-09-03T13:55:57.516Z"
     },
     "src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java": {
       "kind": "infra",
