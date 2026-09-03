@@ -32,6 +32,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
 	// Spring Mail: SMTP를 통한 매니저·교육생 초대 이메일 발송을 제공합니다.
 	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	// Spring AOP: handles(sbf_handle) 스냅샷 자동 기록용 @RecordHandleSnapshot 인터셉터가 사용합니다.
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
 	// Springdoc OpenAPI UI: OpenAPI 명세와 Swagger UI 문서를 제공합니다.
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.3'
 	// JJWT API: JWT 생성·검증을 위한 컴파일 시 API를 제공합니다.
