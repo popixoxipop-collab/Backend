@@ -56,3 +56,6 @@ uploads/
 
 ### Mac OS Hidden File
 .DS_Store
+
+### bskel gate attestation signing key (local-only, never commit a private key)
+.bskel-keys/

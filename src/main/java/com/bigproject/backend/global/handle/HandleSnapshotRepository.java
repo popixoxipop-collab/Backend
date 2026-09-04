@@ -1,0 +1,20 @@
+package com.bigproject.backend.global.handle;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.time.Instant;
+import java.util.List;
+import java.util.UUID;
+
+public interface HandleSnapshotRepository extends JpaRepository<HandleSnapshot, Long> {
+
+	/** Most recent snapshot first -- `recover(handle)` without a timestamp wants index 0 of this. */
+	List<HandleSnapshot> findByHandleUidOrderByRecordedAtDesc(UUID handleUid);
+
+	/**
+	 * O4 (D-handle-lifecycle): backs {@link HandleService#pruneSnapshotsOlderThan} -- retention is
+	 * exposed as a callable method, but nothing generated here schedules it automatically (see
+	 * HandleService's own javadoc for why).
+	 */
+	long deleteByRecordedAtBefore(Instant cutoff);
+}

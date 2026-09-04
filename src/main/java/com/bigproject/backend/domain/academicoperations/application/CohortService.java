@@ -6,6 +6,7 @@ import com.bigproject.backend.global.exception.ApiException;
 import com.bigproject.backend.domain.academicoperations.domain.Cohort;
 import com.bigproject.backend.domain.academicoperations.domain.CohortStatus;
 import com.bigproject.backend.domain.academicoperations.infrastructure.CohortRepository;
+import com.bigproject.backend.global.handle.RecordHandleSnapshot;
 import com.bigproject.backend.domain.organization.domain.OrganizationPolicy;
 import com.bigproject.backend.domain.organization.infrastructure.OrganizationPolicyRepository;
 import lombok.RequiredArgsConstructor;
@@ -65,6 +66,10 @@ public class CohortService {
     }
 
     // 기수 단건 조회
+    // D-handles-pilot-cohort: no fields need redaction here (org id, cohort name, dates, status --
+    // no personal/trainee data) -- an explicit, considered "empty" decision, not an unconsidered
+    // default. See DECISIONS.md for the full record.
+    @RecordHandleSnapshot(resourceType = "Cohort", operationId = "findCohort", resourceUidParam = 0)
     public Cohort findCohort(UUID cohortId, UUID orgId) {
         return cohortRepository.findByCohortIdAndOrgIdAndDeletedAtIsNull(cohortId, orgId)
                 .orElseThrow(() -> new ApiException(AcademicOperationsErrorCode.COHORT_NOT_FOUND));
@@ -93,6 +98,7 @@ public class CohortService {
      * 개강 후를 막는 이유는 기간이 이미 발행된 리포트·회차 일정의 기준이기 때문이다.
      */
     @Transactional
+    @RecordHandleSnapshot(resourceType = "Cohort", operationId = "updateCohort", resourceUidParam = 0)
     public Cohort updateCohort(UUID cohortId, UUID orgId, String name,
                                LocalDate startDate, LocalDate endDate, UUID actorUserId) {
         if (name == null && startDate == null && endDate == null) {

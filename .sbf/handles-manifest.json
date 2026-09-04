@@ -1,0 +1,116 @@
+{
+  "schema": "sbf.handles-manifest/1",
+  "files": {
+    "specs/001-handles-pilot-cohort/handles/migration.sql": {
+      "kind": "migration",
+      "ownership": "feature",
+      "owner": "001-handles-pilot-cohort",
+      "provider": "java-spring",
+      "template": "migration.sql.tmpl",
+      "template_hash": "efc81420ade60dac51bac6ae5954029bf57b4f33f1567ddfcd10cda60fc89ac3",
+      "generated_hash": "2cd9a0088888ee7ee8764b28085bebcf5305b95d0606eebae0826e82f7e2ecf9",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleAspect.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleAspect.java.tmpl",
+      "template_hash": "5f66c7ff60360ec3d4dbd720cf09d90d773d942888beda8c577a5d399b460bcd",
+      "generated_hash": "066772b192f285318b5389997fd0d600ee87acc72acda227ce1243e52a7529ab",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleCodec.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleCodec.java.tmpl",
+      "template_hash": "8d31cf1b395bcef49b6a1243edad467bbe1efb6d97a3b9a1a5bee4942beb3d47",
+      "generated_hash": "45636e178fb7fbd7fdf88773fb6ba9946e2ae8b1ff51deff220a051a8b0810ed",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleController.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleController.java.tmpl",
+      "template_hash": "b222f52864b0b82cafb0d5b2a5a5ce8668de2357e374dab31c808a41640e003e",
+      "generated_hash": "a91f4e0b5c0995b93c83ecc1664cf52eabbceeaf5433ce4ad270fbc8b4b55198",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleRegistry.java.tmpl",
+      "template_hash": "6c26584aab502aa6fe99f2472fb43c7068c70b1a77c5aa763437499503e297c4",
+      "generated_hash": "b4d8dc4a9ff94b9fdbfec1f311b519dacbe716da99fd0e06dadf7450c1160327",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleRegistryRepository.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleRegistryRepository.java.tmpl",
+      "template_hash": "f33c84b0155e737e3261a5b08fc7843c78098d032b1fdaa5275db0bf5fb526f5",
+      "generated_hash": "45a84424e40f098ddcb498f1ad68e951cd72ee6c0caaa9def083ed3e69619773",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleService.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleService.java.tmpl",
+      "template_hash": "54ff9a0954e66dfb12182a1f85da62e39646f15f8761b4657a35c194616e7b39",
+      "generated_hash": "532a88652218e4dcc11d005cae72a7b0b68607c16449f9f2b48699d78a218875",
+      "updated_at": "2026-09-03T13:55:57.516Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleSnapshot.java.tmpl",
+      "template_hash": "6b3706ce8dfcb7b78fdd660b08a4d3702a557ff9ebbfdba52c3fe39ba600d64d",
+      "generated_hash": "801aa69e0a2496b2890929eff2d0e946378561e21defb84645f38a633af7fcd1",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/HandleSnapshotRepository.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "HandleSnapshotRepository.java.tmpl",
+      "template_hash": "834d6f358a04de2f0876017d08688626c8b02339996ea645f397f26a4e6fd5eb",
+      "generated_hash": "2692fd787732dcd06681a4d65c386222160881ea9b68c474f49f5484d819d8e0",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/RecordHandleSnapshot.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "RecordHandleSnapshot.java.tmpl",
+      "template_hash": "cf88de5138a3be2a4e40288c1d7060535f27708f52164070288fef6bd7b332c2",
+      "generated_hash": "afb7ec260f6fdba782b18632baf2bab528a34341b7af54bd4026c244eb302693",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/handle/ResourceResolver.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "ResourceResolver.java.tmpl",
+      "template_hash": "1b130be5c4626a4a7b23f46435c81137fd2ab0802939e1a8f439d2ad73495418",
+      "generated_hash": "be99e0b0123430cc66828f7f4d3b8f796c4adb5be83ad706ce36b9fb1789e3a9",
+      "updated_at": "2026-09-03T13:07:41.897Z"
+    }
+  },
+  "enforceRegistry": true
+}

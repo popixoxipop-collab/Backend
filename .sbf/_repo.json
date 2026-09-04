@@ -1,0 +1,51 @@
+{
+  "schema": "sbf.state/1",
+  "feature_id": "_repo",
+  "gates": {
+    "preflight": {
+      "status": "pass",
+      "token": "sha256:3f26c4cc06cbad5c24b2c03e12e323dc08d79cb3897e758f505e765a470f530a",
+      "inputs": {
+        "default_branch": "develop",
+        "head_sha": "283881757df8001a065d94139f80df581fb188ec",
+        "origin_tip_sha": "5041a0842d79fddda38ddf8af8d220c000b71cba"
+      },
+      "at": "2026-09-03T14:09:30.163Z",
+      "evidence": {
+        "default_branch": "develop",
+        "source_of_truth": {
+          "symbolic_ref": "develop",
+          "remote_show": "develop",
+          "gh_api": "develop"
+        },
+        "head_sha": "283881757df8001a065d94139f80df581fb188ec",
+        "merge_base": "5041a0842d79fddda38ddf8af8d220c000b71cba",
+        "behind": 0,
+        "ahead": 5,
+        "base_age_days": 0,
+        "worktree_path": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort",
+        "current_branch": "feat/handles-pilot-cohort",
+        "created_from": "5041a08 feat/handles-pilot-cohort@{5}: branch: Created from origin/develop",
+        "origin_tip_sha": "5041a0842d79fddda38ddf8af8d220c000b71cba",
+        "checked_at": "2026-09-03T14:09:30Z",
+        "worktree_dirty": false,
+        "fetch": "ok",
+        "policy": {
+          "max_behind": 0,
+          "allow_dirty": false,
+          "offline": false,
+          "fetch_timeout_seconds": 60
+        },
+        "cross_check": {
+          "sources_ok": 3,
+          "symbolic_ref": "ok",
+          "remote_show": "ok",
+          "gh_api": "ok"
+        },
+        "freshness": {
+          "max_age_minutes": 30
+        }
+      }
+    }
+  }
+}
