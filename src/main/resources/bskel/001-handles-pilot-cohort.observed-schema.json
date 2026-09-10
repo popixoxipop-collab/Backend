@@ -1,0 +1,896 @@
+{
+	"sbf_observed_schema": "1",
+	"feature_id": "001-handles-pilot-cohort",
+	"feature_uid": "6bcbb17e-72fe-4049-92b5-712125c5c1ec",
+	"contract_ref": "3f52b6e441cda806d877f87ea35ff6417c5effee89b3105ec5e0a25bafd364ef",
+	"operations": {
+		"findClassrooms": {
+			"verb": "GET",
+			"path": "/api/v0/cohorts/{cohortId}/classrooms",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "false",
+			"request": null,
+			"response": {
+				"required": [
+					"classrooms"
+				],
+				"properties": {},
+				"unsupported": [
+					"/classrooms"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"401",
+				"403",
+				"404",
+				"500"
+			]
+		},
+		"createClassroom": {
+			"verb": "POST",
+			"path": "/api/v0/cohorts/{cohortId}/classrooms",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [
+					"capacity",
+					"name"
+				],
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"capacity": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/managerIds"
+				]
+			},
+			"response": {
+				"required": [
+					"capacity",
+					"classroomId",
+					"cohortId",
+					"managerAssignmentRequired",
+					"managers",
+					"name",
+					"traineeCount"
+				],
+				"properties": {
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"capacity": {
+						"type": "integer"
+					},
+					"traineeCount": {
+						"type": "integer"
+					},
+					"managerAssignmentRequired": {
+						"type": "boolean"
+					}
+				},
+				"unsupported": [
+					"/managers"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"201",
+				"400",
+				"401",
+				"403",
+				"404",
+				"409"
+			]
+		},
+		"updateClassroom": {
+			"verb": "PATCH",
+			"path": "/api/v0/cohorts/{cohortId}/classrooms/{classroomId}",
+			"pathParams": {
+				"required": [
+					"cohortId",
+					"classroomId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					"/name",
+					"/capacity"
+				]
+			},
+			"response": {
+				"required": [
+					"capacity",
+					"classroomId",
+					"cohortId",
+					"managerAssignmentRequired",
+					"managers",
+					"name",
+					"traineeCount"
+				],
+				"properties": {
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"capacity": {
+						"type": "integer"
+					},
+					"traineeCount": {
+						"type": "integer"
+					},
+					"managerAssignmentRequired": {
+						"type": "boolean"
+					}
+				},
+				"unsupported": [
+					"/managers"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"400",
+				"401",
+				"403",
+				"404",
+				"409"
+			]
+		},
+		"deleteClassroom": {
+			"verb": "DELETE",
+			"path": "/api/v0/cohorts/{cohortId}/classrooms/{classroomId}",
+			"pathParams": {
+				"required": [
+					"cohortId",
+					"classroomId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "false",
+			"request": null,
+			"response": null,
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"204",
+				"401",
+				"403",
+				"404",
+				"409"
+			]
+		},
+		"updateManagers": {
+			"verb": "PATCH",
+			"path": "/api/v0/cohorts/{cohortId}/classrooms/{classroomId}/managers",
+			"pathParams": {
+				"required": [
+					"cohortId",
+					"classroomId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [
+					"managerIds"
+				],
+				"properties": {},
+				"unsupported": [
+					"/managerIds"
+				]
+			},
+			"response": {
+				"required": [
+					"capacity",
+					"classroomId",
+					"cohortId",
+					"managerAssignmentRequired",
+					"managers",
+					"name",
+					"traineeCount"
+				],
+				"properties": {
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"capacity": {
+						"type": "integer"
+					},
+					"traineeCount": {
+						"type": "integer"
+					},
+					"managerAssignmentRequired": {
+						"type": "boolean"
+					}
+				},
+				"unsupported": [
+					"/managers"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"400",
+				"401",
+				"403",
+				"404"
+			]
+		},
+		"assignTrainees": {
+			"verb": "PATCH",
+			"path": "/api/v0/cohorts/{cohortId}/classrooms/trainee-assignments",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [
+					"classroomId",
+					"traineeIds"
+				],
+				"properties": {
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": [
+					"/traineeIds"
+				]
+			},
+			"response": {
+				"required": [
+					"assignedCount",
+					"assignedTraineeIds",
+					"classroomId"
+				],
+				"properties": {
+					"classroomId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"assignedCount": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/assignedTraineeIds"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"400",
+				"401",
+				"403",
+				"404"
+			]
+		},
+		"rollbackAssignment": {
+			"verb": "PATCH",
+			"path": "/api/v0/cohorts/{cohortId}/classrooms/trainee-assignments/rollback",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [
+					"traineeIds"
+				],
+				"properties": {},
+				"unsupported": [
+					"/traineeIds"
+				]
+			},
+			"response": {
+				"required": [
+					"rolledBackCount",
+					"rolledBackTraineeIds"
+				],
+				"properties": {
+					"rolledBackCount": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/rolledBackTraineeIds"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"400",
+				"401",
+				"403",
+				"404"
+			]
+		},
+		"findCohorts": {
+			"verb": "GET",
+			"path": "/api/v0/cohorts",
+			"pathParams": {
+				"required": [],
+				"properties": {},
+				"unsupported": []
+			},
+			"body": "false",
+			"request": null,
+			"response": {
+				"required": [
+					"content",
+					"page",
+					"size",
+					"totalElements",
+					"totalPages"
+				],
+				"properties": {
+					"page": {
+						"type": "integer"
+					},
+					"size": {
+						"type": "integer"
+					},
+					"totalElements": {
+						"type": "integer"
+					},
+					"totalPages": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/content"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"400",
+				"401",
+				"403",
+				"500"
+			]
+		},
+		"findCohort": {
+			"verb": "GET",
+			"path": "/api/v0/cohorts/{cohortId}",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "false",
+			"request": null,
+			"response": {
+				"required": [
+					"classroomCount",
+					"cohortId",
+					"endDate",
+					"managers",
+					"name",
+					"organizationId",
+					"startDate",
+					"status",
+					"traineeCount"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"organizationId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"status": {
+						"type": "string"
+					},
+					"traineeCount": {
+						"type": "integer"
+					},
+					"classroomCount": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/startDate",
+					"/endDate",
+					"/managers"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"401",
+				"403",
+				"404",
+				"500"
+			]
+		},
+		"createCohort": {
+			"verb": "POST",
+			"path": "/api/v0/cohorts",
+			"pathParams": {
+				"required": [],
+				"properties": {},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [
+					"endDate",
+					"name",
+					"organizationId",
+					"startDate"
+				],
+				"properties": {
+					"organizationId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"startDate": {
+						"type": "string"
+					},
+					"endDate": {
+						"type": "string"
+					}
+				},
+				"unsupported": []
+			},
+			"response": {
+				"required": [
+					"classroomCount",
+					"cohortId",
+					"endDate",
+					"managers",
+					"name",
+					"organizationId",
+					"startDate",
+					"status",
+					"traineeCount"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"organizationId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"status": {
+						"type": "string"
+					},
+					"traineeCount": {
+						"type": "integer"
+					},
+					"classroomCount": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/startDate",
+					"/endDate",
+					"/managers"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"201",
+				"400",
+				"401",
+				"403",
+				"409",
+				"500"
+			]
+		},
+		"endCohort": {
+			"verb": "PATCH",
+			"path": "/api/v0/cohorts/{cohortId}/end",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [
+					"reason"
+				],
+				"properties": {
+					"reason": {
+						"type": "string"
+					}
+				},
+				"unsupported": []
+			},
+			"response": {
+				"required": [
+					"classroomCount",
+					"cohortId",
+					"endDate",
+					"managers",
+					"name",
+					"organizationId",
+					"startDate",
+					"status",
+					"traineeCount"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"organizationId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"status": {
+						"type": "string"
+					},
+					"traineeCount": {
+						"type": "integer"
+					},
+					"classroomCount": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/startDate",
+					"/endDate",
+					"/managers"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"400",
+				"401",
+				"403",
+				"404"
+			]
+		},
+		"updateCohort": {
+			"verb": "PATCH",
+			"path": "/api/v0/cohorts/{cohortId}",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "true",
+			"request": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					"/name",
+					"/startDate",
+					"/endDate"
+				]
+			},
+			"response": {
+				"required": [
+					"classroomCount",
+					"cohortId",
+					"endDate",
+					"managers",
+					"name",
+					"organizationId",
+					"startDate",
+					"status",
+					"traineeCount"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"organizationId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					},
+					"name": {
+						"type": "string"
+					},
+					"status": {
+						"type": "string"
+					},
+					"traineeCount": {
+						"type": "integer"
+					},
+					"classroomCount": {
+						"type": "integer"
+					}
+				},
+				"unsupported": [
+					"/startDate",
+					"/endDate",
+					"/managers"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"400",
+				"401",
+				"403",
+				"404",
+				"409",
+				"500"
+			]
+		},
+		"deleteCohort": {
+			"verb": "DELETE",
+			"path": "/api/v0/cohorts/{cohortId}",
+			"pathParams": {
+				"required": [
+					"cohortId"
+				],
+				"properties": {
+					"cohortId": {
+						"type": "string",
+						"pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+					}
+				},
+				"unsupported": []
+			},
+			"body": "false",
+			"request": null,
+			"response": null,
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"204",
+				"401",
+				"403",
+				"404",
+				"409",
+				"500"
+			]
+		},
+		"findMyEnrollments": {
+			"verb": "GET",
+			"path": "/api/v0/members/me/enrollments",
+			"pathParams": {
+				"required": [],
+				"properties": {},
+				"unsupported": []
+			},
+			"body": "false",
+			"request": null,
+			"response": {
+				"required": [
+					"enrollments"
+				],
+				"properties": {},
+				"unsupported": [
+					"/enrollments"
+				]
+			},
+			"error": {
+				"required": [],
+				"properties": {},
+				"unsupported": [
+					""
+				]
+			},
+			"statuses": [
+				"200",
+				"401",
+				"403",
+				"500"
+			]
+		}
+	}
+}

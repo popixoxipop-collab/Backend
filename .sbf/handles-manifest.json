@@ -110,6 +110,56 @@
       "template_hash": "1b130be5c4626a4a7b23f46435c81137fd2ab0802939e1a8f439d2ad73495418",
       "generated_hash": "be99e0b0123430cc66828f7f4d3b8f796c4adb5be83ad706ce36b9fb1789e3a9",
       "updated_at": "2026-09-03T13:07:41.897Z"
+    },
+    "src/main/java/com/bigproject/backend/global/observe/ContractCheck.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "ContractCheck.java.tmpl",
+      "template_hash": "d5690db7616106f1d9c32763bdd860cba390bf2a23d44c5325db6413574abfaa",
+      "generated_hash": "4e2d13d84e3dc5cdcfef56903146f37c3a4e002d49d5c6493ca0c0cd051c741e",
+      "updated_at": "2026-09-10T13:59:39.678Z"
+    },
+    "src/main/java/com/bigproject/backend/global/observe/ContractObservationAspect.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "ContractObservationAspect.java.tmpl",
+      "template_hash": "d8f234af08279f22a97b099a4a3fd42c07d51d6279171be9dacb50006cd1a182",
+      "generated_hash": "d1366a04c103eb139e7025d5292c45fb03e42b7c43e224128966a798725e7791",
+      "updated_at": "2026-09-10T13:59:39.678Z"
+    },
+    "src/main/java/com/bigproject/backend/global/observe/ObserveContract.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "ObserveContract.java.tmpl",
+      "template_hash": "079489b84263e3aa578e3bd644358de1a682343cba21701f6ab61d3f9e491e65",
+      "generated_hash": "6d1ad369e12497dc1091569a5d15efeb02888a80c1222cf50998d1b66ccaaf12",
+      "updated_at": "2026-09-10T13:59:39.678Z"
+    },
+    "src/main/java/com/bigproject/backend/global/observe/ObserveSchemaLoader.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "ObserveSchemaLoader.java.tmpl",
+      "template_hash": "f866cbb58c151072ec6b19b8b01bedc48509af19ee5618a56730358a0cd8ae90",
+      "generated_hash": "d79be7ca80a7c177cf98156af7ce5b0cce018fd714de5fa3e392e6ca56c8aabb",
+      "updated_at": "2026-09-10T13:59:39.678Z"
+    },
+    "src/main/java/com/bigproject/backend/global/observe/ReceiptSigner.java": {
+      "kind": "infra",
+      "ownership": "repo",
+      "owner": "_repo",
+      "provider": "java-spring",
+      "template": "ReceiptSigner.java.tmpl",
+      "template_hash": "436a236c5872c17b8510c63974cbc29eaba2f0256810eadd29f631c39697fd94",
+      "generated_hash": "548f7322fdfadd428fd624278a58ef46f8c23a6c5d9acac80de290f9b2076702",
+      "updated_at": "2026-09-10T13:59:39.678Z"
     }
   },
   "enforceRegistry": true

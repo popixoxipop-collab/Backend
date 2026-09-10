@@ -3405,7 +3405,7 @@
               "line": 410
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/ClassroomController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/ClassroomController.java",
           "line": 47
         },
         {
@@ -3463,7 +3463,7 @@
               "line": 353
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/CohortController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/CohortController.java",
           "line": 54
         },
         {
@@ -3481,7 +3481,7 @@
               "line": 84
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/EnrollmentController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/EnrollmentController.java",
           "line": 35
         }
       ],
@@ -3493,7 +3493,7 @@
           "idField": "classMembershipId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/domain/ClassMembership.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/domain/ClassMembership.java",
           "line": 20
         },
         {
@@ -3503,7 +3503,7 @@
           "idField": "classId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/domain/Classroom.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/domain/Classroom.java",
           "line": 21
         },
         {
@@ -3513,7 +3513,7 @@
           "idField": "cohortId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/domain/Cohort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/domain/Cohort.java",
           "line": 20
         },
         {
@@ -3523,7 +3523,7 @@
           "idField": "cohortMemberId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/domain/CohortMember.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/domain/CohortMember.java",
           "line": 19
         },
         {
@@ -3533,7 +3533,7 @@
           "idField": "assignmentId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/domain/ManagerAssignment.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/domain/ManagerAssignment.java",
           "line": 20
         }
       ],
@@ -3545,7 +3545,7 @@
             "RUNNING",
             "CLOSED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/domain/CohortStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/domain/CohortStatus.java",
           "line": 6
         },
         {
@@ -3554,78 +3554,78 @@
             "COHORT",
             "CLASS"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/domain/RoleScope.java",
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/domain/RoleScope.java",
           "line": 4
         }
       ],
       "dtos": [
         {
           "className": "AssignTraineesRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/AssignTraineesRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/AssignTraineesRequest.java"
         },
         {
           "className": "AssignTraineesResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/AssignTraineesResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/AssignTraineesResponse.java"
         },
         {
           "className": "ClassroomListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/ClassroomListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/ClassroomListResponse.java"
         },
         {
           "className": "ClassroomResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/ClassroomResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/ClassroomResponse.java"
         },
         {
           "className": "CohortListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CohortListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CohortListResponse.java"
         },
         {
           "className": "CohortResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CohortResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CohortResponse.java"
         },
         {
           "className": "CreateClassroomRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CreateClassroomRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CreateClassroomRequest.java"
         },
         {
           "className": "CreateCohortRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CreateCohortRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/CreateCohortRequest.java"
         },
         {
           "className": "EndCohortRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/EndCohortRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/EndCohortRequest.java"
         },
         {
           "className": "EnrollmentListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/EnrollmentListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/EnrollmentListResponse.java"
         },
         {
           "className": "EnrollmentResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/EnrollmentResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/EnrollmentResponse.java"
         },
         {
           "className": "Manager",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/Manager.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/Manager.java"
         },
         {
           "className": "RollbackAssignmentRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/RollbackAssignmentRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/RollbackAssignmentRequest.java"
         },
         {
           "className": "RollbackAssignmentResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/RollbackAssignmentResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/RollbackAssignmentResponse.java"
         },
         {
           "className": "UpdateClassroomManagersRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomManagersRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomManagersRequest.java"
         },
         {
           "className": "UpdateClassroomRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomRequest.java"
         },
         {
           "className": "UpdateCohortRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateCohortRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateCohortRequest.java"
         }
       ],
       "score": 144,
@@ -3886,7 +3886,7 @@
               "line": 675
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/AnalyticsController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/AnalyticsController.java",
           "line": 42
         },
         {
@@ -3904,7 +3904,7 @@
               "line": 81
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/ClassAnalyticsController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/ClassAnalyticsController.java",
           "line": 26
         },
         {
@@ -3938,7 +3938,7 @@
               "line": 194
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/ManagerViewAnalyticsController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/ManagerViewAnalyticsController.java",
           "line": 28
         }
       ],
@@ -3952,7 +3952,7 @@
             "BETTER",
             "NOT_COMPARABLE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/ChangeDirection.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/ChangeDirection.java",
           "line": 12
         },
         {
@@ -3962,7 +3962,7 @@
             "SAME",
             "WORSE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/CohortRiskComparison.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/CohortRiskComparison.java",
           "line": 17
         },
         {
@@ -3972,7 +3972,7 @@
             "REPORT_NOT_PUBLISHED",
             "NO_SHARED_CONCEPT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/ComparisonEmptyState.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/ComparisonEmptyState.java",
           "line": 13
         },
         {
@@ -3982,7 +3982,7 @@
             "IMPROVED",
             "CONCEPT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/ComparisonSort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/ComparisonSort.java",
           "line": 12
         },
         {
@@ -3992,7 +3992,7 @@
             "ABSENT_IN_COHORT",
             "MERGED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/ConceptPresence.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/ConceptPresence.java",
           "line": 13
         },
         {
@@ -4003,7 +4003,7 @@
             "CONCEPT_MERGED",
             "AGGREGATION_UNAVAILABLE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/NotComparableReason.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/NotComparableReason.java",
           "line": 14
         },
         {
@@ -4012,7 +4012,7 @@
             "CLASS",
             "TEAM"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/RiskTraineeLevel.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/RiskTraineeLevel.java",
           "line": 16
         },
         {
@@ -4023,7 +4023,7 @@
             "EXCLUSION_COUNT",
             "NAME"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/RiskTraineeSort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/RiskTraineeSort.java",
           "line": 15
         },
         {
@@ -4033,7 +4033,7 @@
             "NOT_AGGREGATED",
             "AGGREGATED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/domain/RoundAggregationStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/domain/RoundAggregationStatus.java",
           "line": 17
         },
         {
@@ -4041,7 +4041,7 @@
           "constants": [
             "INDIVIDUAL"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ConceptScopeResponse.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ConceptScopeResponse.java",
           "line": 25
         },
         {
@@ -4049,7 +4049,7 @@
           "constants": [
             "NO_ELIGIBLE_PARTICIPANT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/GroupGapResponse.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/GroupGapResponse.java",
           "line": 33
         },
         {
@@ -4058,38 +4058,38 @@
             "CLASS",
             "TEAM"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ManagerHeatmapResponse.java",
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ManagerHeatmapResponse.java",
           "line": 38
         }
       ],
       "dtos": [
         {
           "className": "ActionRequiredResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ActionRequiredResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ActionRequiredResponse.java"
         },
         {
           "className": "CohortComparisonResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/CohortComparisonResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/CohortComparisonResponse.java"
         },
         {
           "className": "ConceptScopeResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ConceptScopeResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ConceptScopeResponse.java"
         },
         {
           "className": "GroupGapResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/GroupGapResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/GroupGapResponse.java"
         },
         {
           "className": "ManagerHeatmapResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ManagerHeatmapResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/ManagerHeatmapResponse.java"
         },
         {
           "className": "RiskSignalResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/RiskSignalResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/RiskSignalResponse.java"
         },
         {
           "className": "RiskTraineeRateResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/RiskTraineeRateResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/analytics/presentation/dto/RiskTraineeRateResponse.java"
         }
       ],
       "score": 76,
@@ -4258,7 +4258,7 @@
               "line": 113
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleController.java",
+          "file": "src/main/java/com/bigproject/backend/global/handle/HandleController.java",
           "line": 41
         }
       ],
@@ -4270,7 +4270,7 @@
           "idField": "handleUid",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
+          "file": "src/main/java/com/bigproject/backend/global/handle/HandleRegistry.java",
           "line": 29
         },
         {
@@ -4280,7 +4280,7 @@
           "idField": "snapshotId",
           "idFieldType": "Long",
           "idFieldIsUuid": false,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
+          "file": "src/main/java/com/bigproject/backend/global/handle/HandleSnapshot.java",
           "line": 32
         }
       ],
@@ -4381,7 +4381,7 @@
               "line": 148
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/AccountLockController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/AccountLockController.java",
           "line": 57
         },
         {
@@ -4404,7 +4404,7 @@
               "line": 233
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/CommitEmailController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/CommitEmailController.java",
           "line": 35
         },
         {
@@ -4446,7 +4446,7 @@
               "line": 323
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/ManagerAccountController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/ManagerAccountController.java",
           "line": 52
         },
         {
@@ -4464,7 +4464,7 @@
               "line": 152
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/ManagerController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/ManagerController.java",
           "line": 40
         },
         {
@@ -4490,7 +4490,7 @@
               "line": 136
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/MemberController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/MemberController.java",
           "line": 40
         },
         {
@@ -4564,7 +4564,7 @@
               "line": 801
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/TraineeController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/TraineeController.java",
           "line": 60
         },
         {
@@ -4582,7 +4582,7 @@
               "line": 126
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/TraineeDetailController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/TraineeDetailController.java",
           "line": 31
         },
         {
@@ -4600,7 +4600,7 @@
               "line": 111
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/TraineeTimelineController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/TraineeTimelineController.java",
           "line": 30
         }
       ],
@@ -4613,7 +4613,7 @@
             "COMMIT_EMAIL_ALREADY_USED",
             "MEMBER_NOT_FOUND"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/application/CommitEmailErrorCode.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/application/CommitEmailErrorCode.java",
           "line": 5
         },
         {
@@ -4622,7 +4622,7 @@
             "RUNNING",
             "PARTIAL"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/application/TraineeRegistrationProgress.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/application/TraineeRegistrationProgress.java",
           "line": 21
         },
         {
@@ -4631,7 +4631,7 @@
             "NOT_FOUND",
             "NOT_PENDING"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/application/TraineeRosterService.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/application/TraineeRosterService.java",
           "line": 100
         },
         {
@@ -4641,7 +4641,7 @@
             "ACTIVE",
             "INACTIVE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/AccountStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/AccountStatus.java",
           "line": 27
         },
         {
@@ -4651,7 +4651,7 @@
             "VERIFIED",
             "UNVERIFIED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/CommitEmailStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/CommitEmailStatus.java",
           "line": 22
         },
         {
@@ -4663,7 +4663,7 @@
             "SECURITY_ACTION",
             "OTHER"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/InactivationReasonCode.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/InactivationReasonCode.java",
           "line": 17
         },
         {
@@ -4674,7 +4674,7 @@
             "INVITE_TRAINEE",
             "PASSWORD_RESET"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/InvitationPurpose.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/InvitationPurpose.java",
           "line": 3
         },
         {
@@ -4683,7 +4683,7 @@
             "NAME",
             "ASSIGNED_TRAINEE_COUNT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/ManagerRosterSort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/ManagerRosterSort.java",
           "line": 7
         },
         {
@@ -4694,7 +4694,7 @@
             "MANAGER",
             "TRAINEE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/Role.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/Role.java",
           "line": 6
         },
         {
@@ -4704,7 +4704,7 @@
             "DUPLICATE_EMAIL_IN_REQUEST",
             "EXISTING_ORGANIZATION_TRAINEE_EMAIL"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/TraineeInvitationFailureStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/TraineeInvitationFailureStatus.java",
           "line": 3
         },
         {
@@ -4715,7 +4715,7 @@
             "RISK",
             "EXCELLENCE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/TraineeRosterSort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/TraineeRosterSort.java",
           "line": 6
         },
         {
@@ -4724,7 +4724,7 @@
             "ACTIVE",
             "INACTIVE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/domain/TraineeStatusUpdate.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/domain/TraineeStatusUpdate.java",
           "line": 16
         },
         {
@@ -4735,94 +4735,94 @@
             "REVIEW",
             "REVIEW_CLOSED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeTimelineResponse.java",
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeTimelineResponse.java",
           "line": 46
         }
       ],
       "dtos": [
         {
           "className": "CommitEmailResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/CommitEmailResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/CommitEmailResponse.java"
         },
         {
           "className": "InviteManagerRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/InviteManagerRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/InviteManagerRequest.java"
         },
         {
           "className": "InviteManagerResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/InviteManagerResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/InviteManagerResponse.java"
         },
         {
           "className": "LoginLockResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/LoginLockResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/LoginLockResponse.java"
         },
         {
           "className": "ManagerAssignmentResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/ManagerAssignmentResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/ManagerAssignmentResponse.java"
         },
         {
           "className": "ManagerRosterResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/ManagerRosterResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/ManagerRosterResponse.java"
         },
         {
           "className": "MemberProfileResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/MemberProfileResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/MemberProfileResponse.java"
         },
         {
           "className": "PreviewTraineesResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/PreviewTraineesResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/PreviewTraineesResponse.java"
         },
         {
           "className": "RegisterTraineesRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/RegisterTraineesRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/RegisterTraineesRequest.java"
         },
         {
           "className": "RegisterTraineesResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/RegisterTraineesResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/RegisterTraineesResponse.java"
         },
         {
           "className": "ReplaceManagerClassroomsRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/ReplaceManagerClassroomsRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/ReplaceManagerClassroomsRequest.java"
         },
         {
           "className": "ResendTraineeInvitationsRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/ResendTraineeInvitationsRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/ResendTraineeInvitationsRequest.java"
         },
         {
           "className": "ResendTraineeInvitationsResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/ResendTraineeInvitationsResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/ResendTraineeInvitationsResponse.java"
         },
         {
           "className": "TraineeDetailResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeDetailResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeDetailResponse.java"
         },
         {
           "className": "TraineeRegistrationProgressResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeRegistrationProgressResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeRegistrationProgressResponse.java"
         },
         {
           "className": "TraineeRosterResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeRosterResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeRosterResponse.java"
         },
         {
           "className": "TraineeTimelineResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeTimelineResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/TraineeTimelineResponse.java"
         },
         {
           "className": "UpdateCommitEmailRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateCommitEmailRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateCommitEmailRequest.java"
         },
         {
           "className": "UpdateLoginLockRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateLoginLockRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateLoginLockRequest.java"
         },
         {
           "className": "UpdateManagerStatusRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateManagerStatusRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateManagerStatusRequest.java"
         },
         {
           "className": "UpdateTraineeStatusRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateTraineeStatusRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/member/presentation/dto/UpdateTraineeStatusRequest.java"
         }
       ],
       "score": 50,
@@ -4982,7 +4982,7 @@
               "line": 663
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/CurriculumController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/CurriculumController.java",
           "line": 46
         },
         {
@@ -5023,7 +5023,7 @@
               "line": 233
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/CurriculumMaterialController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/CurriculumMaterialController.java",
           "line": 34
         }
       ],
@@ -5035,7 +5035,7 @@
           "idField": "analysisId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumAnalysis.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumAnalysis.java",
           "line": 16
         },
         {
@@ -5045,7 +5045,7 @@
           "idField": "materialId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumMaterial.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumMaterial.java",
           "line": 16
         },
         {
@@ -5055,7 +5055,7 @@
           "idField": "sectionId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumSection.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumSection.java",
           "line": 19
         },
         {
@@ -5065,7 +5065,7 @@
           "idField": "mappingId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumTeachesMapping.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumTeachesMapping.java",
           "line": 20
         },
         {
@@ -5075,7 +5075,7 @@
           "idField": "versionId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumVersion.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumVersion.java",
           "line": 15
         },
         {
@@ -5085,7 +5085,7 @@
           "idField": "teachesId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/Teaches.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/Teaches.java",
           "line": 16
         }
       ],
@@ -5098,7 +5098,7 @@
             "SUCCEEDED",
             "FAILED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumAnalysisStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumAnalysisStatus.java",
           "line": 21
         },
         {
@@ -5108,7 +5108,7 @@
             "NAME",
             "USAGE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumCatalogSort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumCatalogSort.java",
           "line": 13
         },
         {
@@ -5117,7 +5117,7 @@
             "ACTIVE",
             "INACTIVE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumVersionStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/CurriculumVersionStatus.java",
           "line": 3
         },
         {
@@ -5127,7 +5127,7 @@
             "REVIEW_REQUIRED",
             "INACTIVE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/MappingStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/MappingStatus.java",
           "line": 3
         },
         {
@@ -5137,7 +5137,7 @@
             "CODE_EXAMPLE",
             "CAUTION"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/TeachKind.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/TeachKind.java",
           "line": 3
         },
         {
@@ -5147,42 +5147,42 @@
             "INACTIVE",
             "MERGED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/domain/TeachesStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/domain/TeachesStatus.java",
           "line": 3
         }
       ],
       "dtos": [
         {
           "className": "CohortCurriculumResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CohortCurriculumResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CohortCurriculumResponse.java"
         },
         {
           "className": "CurriculumCatalogItemResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumCatalogItemResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumCatalogItemResponse.java"
         },
         {
           "className": "CurriculumCatalogResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumCatalogResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumCatalogResponse.java"
         },
         {
           "className": "CurriculumUsingProjectResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumUsingProjectResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumUsingProjectResponse.java"
         },
         {
           "className": "CurriculumVersionResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumVersionResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/CurriculumVersionResponse.java"
         },
         {
           "className": "RegisterCurriculumRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/RegisterCurriculumRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/RegisterCurriculumRequest.java"
         },
         {
           "className": "SectionItemResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/SectionItemResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/SectionItemResponse.java"
         },
         {
           "className": "SectionResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/SectionResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/curriculum/presentation/dto/SectionResponse.java"
         }
       ],
       "score": 35,
@@ -5274,7 +5274,7 @@
               "line": 156
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/notification/presentation/ManagerNotificationController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/notification/presentation/ManagerNotificationController.java",
           "line": 36
         }
       ],
@@ -5286,22 +5286,22 @@
             "TEAM_SUBMISSION_MISSING",
             "TEAM_ANALYSIS_FAILED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/notification/presentation/dto/SendReminderRequest.java",
+          "file": "src/main/java/com/bigproject/backend/domain/notification/presentation/dto/SendReminderRequest.java",
           "line": 13
         }
       ],
       "dtos": [
         {
           "className": "NotificationInboxResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/notification/presentation/dto/NotificationInboxResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/notification/presentation/dto/NotificationInboxResponse.java"
         },
         {
           "className": "SendReminderRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/notification/presentation/dto/SendReminderRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/notification/presentation/dto/SendReminderRequest.java"
         },
         {
           "className": "SendReminderResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/notification/presentation/dto/SendReminderResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/notification/presentation/dto/SendReminderResponse.java"
         }
       ],
       "score": 30,
@@ -5486,7 +5486,7 @@
               "line": 1074
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/ProjectController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/ProjectController.java",
           "line": 63
         },
         {
@@ -5576,7 +5576,7 @@
               "line": 548
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/TeamController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/TeamController.java",
           "line": 43
         }
       ],
@@ -5588,7 +5588,7 @@
           "idField": "projectId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/Project.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/Project.java",
           "line": 16
         },
         {
@@ -5598,7 +5598,7 @@
           "idField": "projectCurriculumId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectCurriculum.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectCurriculum.java",
           "line": 15
         },
         {
@@ -5608,7 +5608,7 @@
           "idField": "requirementId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectRequirement.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectRequirement.java",
           "line": 16
         },
         {
@@ -5618,7 +5618,7 @@
           "idField": "projectConceptId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectVerificationConcept.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectVerificationConcept.java",
           "line": 14
         },
         {
@@ -5628,7 +5628,7 @@
           "idField": "conceptSetId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectVerificationConceptSet.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectVerificationConceptSet.java",
           "line": 15
         },
         {
@@ -5638,7 +5638,7 @@
           "idField": "teamId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/Team.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/Team.java",
           "line": 24
         },
         {
@@ -5648,7 +5648,7 @@
           "idField": "membershipId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/TeamMembership.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/TeamMembership.java",
           "line": 17
         }
       ],
@@ -5660,7 +5660,7 @@
             "MANUAL",
             "TRANSFER"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/AssignmentMethod.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/AssignmentMethod.java",
           "line": 8
         },
         {
@@ -5669,7 +5669,7 @@
             "ACTIVE",
             "SUPERSEDED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ConceptSetStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ConceptSetStatus.java",
           "line": 3
         },
         {
@@ -5678,7 +5678,7 @@
             "PROJECT_FIXED",
             "OWN_COMMIT_DYNAMIC"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ConceptSourceMode.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ConceptSourceMode.java",
           "line": 3
         },
         {
@@ -5687,7 +5687,7 @@
             "TOTAL",
             "OWN_COMMIT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ExtractionScope.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ExtractionScope.java",
           "line": 4
         },
         {
@@ -5696,7 +5696,7 @@
             "MINI_PROJECT",
             "BIG_PROJECT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectCategory.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectCategory.java",
           "line": 18
         },
         {
@@ -5706,7 +5706,7 @@
             "RUNNING",
             "CLOSED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectLifecycleStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectLifecycleStatus.java",
           "line": 23
         },
         {
@@ -5716,7 +5716,7 @@
             "DUE_SOON",
             "START_DATE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectListSort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectListSort.java",
           "line": 20
         },
         {
@@ -5725,7 +5725,7 @@
             "PREP",
             "READY"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectReadiness.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/ProjectReadiness.java",
           "line": 34
         },
         {
@@ -5734,82 +5734,82 @@
             "DRAFT",
             "CONFIRMED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/domain/TeamStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/domain/TeamStatus.java",
           "line": 8
         }
       ],
       "dtos": [
         {
           "className": "AssignTeamMemberRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/AssignTeamMemberRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/AssignTeamMemberRequest.java"
         },
         {
           "className": "AutoAssignTeamsRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/AutoAssignTeamsRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/AutoAssignTeamsRequest.java"
         },
         {
           "className": "ClassProgressResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ClassProgressResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ClassProgressResponse.java"
         },
         {
           "className": "ConceptCandidateResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ConceptCandidateResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ConceptCandidateResponse.java"
         },
         {
           "className": "ConfirmConceptsRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ConfirmConceptsRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ConfirmConceptsRequest.java"
         },
         {
           "className": "CreateProjectRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/CreateProjectRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/CreateProjectRequest.java"
         },
         {
           "className": "CreateTeamRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/CreateTeamRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/CreateTeamRequest.java"
         },
         {
           "className": "DisbandClassTeamsResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/DisbandClassTeamsResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/DisbandClassTeamsResponse.java"
         },
         {
           "className": "LinkCurriculumRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/LinkCurriculumRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/LinkCurriculumRequest.java"
         },
         {
           "className": "LinkCurriculumResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/LinkCurriculumResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/LinkCurriculumResponse.java"
         },
         {
           "className": "ProjectDetailResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ProjectDetailResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ProjectDetailResponse.java"
         },
         {
           "className": "ProjectListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ProjectListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ProjectListResponse.java"
         },
         {
           "className": "ProjectResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ProjectResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ProjectResponse.java"
         },
         {
           "className": "ReplaceRequirementsRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ReplaceRequirementsRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/ReplaceRequirementsRequest.java"
         },
         {
           "className": "TeamListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/TeamListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/TeamListResponse.java"
         },
         {
           "className": "TeamResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/TeamResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/TeamResponse.java"
         },
         {
           "className": "UpdateProjectScheduleRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/UpdateProjectScheduleRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/UpdateProjectScheduleRequest.java"
         },
         {
           "className": "UpdateTeamRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/UpdateTeamRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/projectexecution/presentation/dto/UpdateTeamRequest.java"
         }
       ],
       "score": 25,
@@ -5909,7 +5909,7 @@
               "line": 393
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/OperatorController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/OperatorController.java",
           "line": 48
         },
         {
@@ -5999,7 +5999,7 @@
               "line": 598
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/OrganizationController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/OrganizationController.java",
           "line": 53
         }
       ],
@@ -6011,7 +6011,7 @@
           "idField": "orgId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/Organization.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/Organization.java",
           "line": 38
         },
         {
@@ -6021,7 +6021,7 @@
           "idField": "policyId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/OrganizationPolicy.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/OrganizationPolicy.java",
           "line": 38
         }
       ],
@@ -6034,7 +6034,7 @@
             "NAME_ASC",
             "NAME_DESC"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/application/OrganizationSort.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/application/OrganizationSort.java",
           "line": 14
         },
         {
@@ -6046,7 +6046,7 @@
             "SECURITY_ACTION",
             "OTHER"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/AccountInactivationReason.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/AccountInactivationReason.java",
           "line": 15
         },
         {
@@ -6056,7 +6056,7 @@
             "PRIVATE",
             "FULL"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/DisclosureScope.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/DisclosureScope.java",
           "line": 24
         },
         {
@@ -6066,7 +6066,7 @@
             "ACTIVE",
             "INACTIVE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/OperatorAccountStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/OperatorAccountStatus.java",
           "line": 28
         },
         {
@@ -6077,7 +6077,7 @@
             "IN_PROGRESS",
             "FAILED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/Organization.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/Organization.java",
           "line": 304
         },
         {
@@ -6086,7 +6086,7 @@
             "ACTIVE",
             "SUPERSEDED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/OrganizationPolicy.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/OrganizationPolicy.java",
           "line": 223
         },
         {
@@ -6097,66 +6097,66 @@
             "DELETION_PENDING",
             "DELETED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/domain/OrganizationStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/organization/domain/OrganizationStatus.java",
           "line": 16
         }
       ],
       "dtos": [
         {
           "className": "CreateOrganizationRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/CreateOrganizationRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/CreateOrganizationRequest.java"
         },
         {
           "className": "DeleteOrganizationRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/DeleteOrganizationRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/DeleteOrganizationRequest.java"
         },
         {
           "className": "DeleteOrganizationResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/DeleteOrganizationResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/DeleteOrganizationResponse.java"
         },
         {
           "className": "InviteOperatorRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/InviteOperatorRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/InviteOperatorRequest.java"
         },
         {
           "className": "InviteOperatorResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/InviteOperatorResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/InviteOperatorResponse.java"
         },
         {
           "className": "OperatorListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OperatorListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OperatorListResponse.java"
         },
         {
           "className": "OrganizationCohortListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationCohortListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationCohortListResponse.java"
         },
         {
           "className": "OrganizationListResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationListResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationListResponse.java"
         },
         {
           "className": "OrganizationNameAvailabilityResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationNameAvailabilityResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationNameAvailabilityResponse.java"
         },
         {
           "className": "OrganizationResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/OrganizationResponse.java"
         },
         {
           "className": "PlatformSummaryResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/PlatformSummaryResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/PlatformSummaryResponse.java"
         },
         {
           "className": "PurgeOrganizationResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/PurgeOrganizationResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/PurgeOrganizationResponse.java"
         },
         {
           "className": "UpdateOperatorStatusRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/UpdateOperatorStatusRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/UpdateOperatorStatusRequest.java"
         },
         {
           "className": "UpdateOrganizationRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/organization/presentation/dto/UpdateOrganizationRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/organization/presentation/dto/UpdateOrganizationRequest.java"
         }
       ],
       "score": 20,
@@ -6214,7 +6214,7 @@
               "line": 118
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/presentation/CohortReportController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/presentation/CohortReportController.java",
           "line": 31
         },
         {
@@ -6248,7 +6248,7 @@
               "line": 266
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/presentation/ReportController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/presentation/ReportController.java",
           "line": 30
         },
         {
@@ -6266,7 +6266,7 @@
               "line": 111
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/presentation/ReportForceGenerationController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/presentation/ReportForceGenerationController.java",
           "line": 49
         },
         {
@@ -6284,7 +6284,7 @@
               "line": 99
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/presentation/ReportRegenerationController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/presentation/ReportRegenerationController.java",
           "line": 48
         }
       ],
@@ -6296,7 +6296,7 @@
           "idField": "reportId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/Report.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/Report.java",
           "line": 54
         },
         {
@@ -6306,7 +6306,7 @@
           "idField": "evidenceId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportEvidence.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportEvidence.java",
           "line": 50
         },
         {
@@ -6316,7 +6316,7 @@
           "idField": "generationItemId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationItem.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationItem.java",
           "line": 42
         },
         {
@@ -6326,7 +6326,7 @@
           "idField": "generationRunId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationRun.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationRun.java",
           "line": 45
         },
         {
@@ -6336,7 +6336,7 @@
           "idField": "snapshotId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportSnapshot.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportSnapshot.java",
           "line": 39
         }
       ],
@@ -6347,7 +6347,7 @@
             "FULL",
             "PARTIAL"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportCompletionStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportCompletionStatus.java",
           "line": 57
         },
         {
@@ -6362,7 +6362,7 @@
             "PARTICIPANT_RESULT",
             "PARTICIPANT_RESULT_OCCURRENCE"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportEvidenceCategory.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportEvidenceCategory.java",
           "line": 15
         },
         {
@@ -6371,7 +6371,7 @@
             "REVIEW_REQUIRED",
             "NOT_REQUIRED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportEvidenceDecision.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportEvidenceDecision.java",
           "line": 11
         },
         {
@@ -6382,7 +6382,7 @@
             "SUCCEEDED",
             "FAILED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationItemStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationItemStatus.java",
           "line": 13
         },
         {
@@ -6395,7 +6395,7 @@
             "FAILED",
             "RETRYING"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationRunStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationRunStatus.java",
           "line": 14
         },
         {
@@ -6404,7 +6404,7 @@
             "SCHEDULED",
             "USER_REQUESTED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationTriggerType.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportGenerationTriggerType.java",
           "line": 13
         },
         {
@@ -6414,7 +6414,7 @@
             "ACTIVE",
             "SUPERSEDED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportLifecycleStatus.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportLifecycleStatus.java",
           "line": 13
         },
         {
@@ -6426,18 +6426,18 @@
             "COHORT_SUMMARY",
             "CHECKPOINT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/domain/ReportType.java",
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/domain/ReportType.java",
           "line": 21
         }
       ],
       "dtos": [
         {
           "className": "CohortDiagnosisResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/presentation/dto/CohortDiagnosisResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/presentation/dto/CohortDiagnosisResponse.java"
         },
         {
           "className": "TraineeReportsResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/reporting/presentation/dto/TraineeReportsResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/reporting/presentation/dto/TraineeReportsResponse.java"
         }
       ],
       "score": 12,
@@ -6503,7 +6503,7 @@
               "line": 371
             }
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/presentation/OperationsController.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/presentation/OperationsController.java",
           "line": 37
         }
       ],
@@ -6515,7 +6515,7 @@
           "idField": "usageId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/domain/AiUsage.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/domain/AiUsage.java",
           "line": 47
         },
         {
@@ -6525,7 +6525,7 @@
           "idField": "usageSnapshotId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/domain/OrganizationUsageSnapshot.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/domain/OrganizationUsageSnapshot.java",
           "line": 36
         },
         {
@@ -6535,7 +6535,7 @@
           "idField": "snapshotId",
           "idFieldType": "UUID",
           "idFieldIsUuid": true,
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/domain/StorageUsageSnapshot.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/domain/StorageUsageSnapshot.java",
           "line": 39
         }
       ],
@@ -6566,7 +6566,7 @@
             "UNPRICED",
             "FAILED"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/domain/AiUsage.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/domain/AiUsage.java",
           "line": 227
         },
         {
@@ -6578,7 +6578,7 @@
             "AI_COST_AGGREGATION",
             "SNAPSHOT_COMPOSITION"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/domain/OrganizationUsageSnapshot.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/domain/OrganizationUsageSnapshot.java",
           "line": 152
         },
         {
@@ -6594,7 +6594,7 @@
             "CLOUD_API",
             "CLOUD_INVENTORY"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/domain/StorageUsageSnapshot.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/domain/StorageUsageSnapshot.java",
           "line": 97
         },
         {
@@ -6602,7 +6602,7 @@
           "constants": [
             "NAME"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/CohortCostResponse.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/CohortCostResponse.java",
           "line": 174
         },
         {
@@ -6610,26 +6610,26 @@
           "constants": [
             "SNAPSHOT"
           ],
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/OrganizationUsageResponse.java",
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/OrganizationUsageResponse.java",
           "line": 45
         }
       ],
       "dtos": [
         {
           "className": "CohortCostResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/CohortCostResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/CohortCostResponse.java"
         },
         {
           "className": "OperationSettingResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/OperationSettingResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/OperationSettingResponse.java"
         },
         {
           "className": "OrganizationUsageResponse",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/OrganizationUsageResponse.java"
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/OrganizationUsageResponse.java"
         },
         {
           "className": "UpdateOperationSettingRequest",
-          "file": "/Users/xox/Desktop/Team-IZ-Backend/.claude/worktrees/handles-pilot-cohort/src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/UpdateOperationSettingRequest.java"
+          "file": "src/main/java/com/bigproject/backend/domain/usagemetering/presentation/dto/UpdateOperationSettingRequest.java"
         }
       ],
       "score": 10,
@@ -7352,6 +7352,11 @@
     "src/main/java/com/bigproject/backend/global/handle/ResourceResolver.java",
     "src/main/java/com/bigproject/backend/global/json/PatchField.java",
     "src/main/java/com/bigproject/backend/global/json/PatchFieldDeserializer.java",
+    "src/main/java/com/bigproject/backend/global/observe/ContractCheck.java",
+    "src/main/java/com/bigproject/backend/global/observe/ContractObservationAspect.java",
+    "src/main/java/com/bigproject/backend/global/observe/ObserveContract.java",
+    "src/main/java/com/bigproject/backend/global/observe/ObserveSchemaLoader.java",
+    "src/main/java/com/bigproject/backend/global/observe/ReceiptSigner.java",
     "src/main/java/com/bigproject/backend/global/security/ClientIpAddresses.java",
     "src/main/java/com/bigproject/backend/global/security/ClientIpResolver.java",
     "src/main/java/com/bigproject/backend/global/security/CurrentUserResolver.java",
@@ -7366,9 +7371,9 @@
   ],
   "feature_id": "001-handles-pilot-cohort",
   "disposition": {
-    "mode": "extend",
-    "note": "handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring; re-run after O14 scan-report portable-paths repair",
+    "mode": "reuse",
+    "note": "W3-3: re-baseline after adding @ObserveContract to CohortService.findCohort",
     "module": "academicoperations",
-    "at": "2026-09-10T05:36:40.767Z"
+    "at": "2026-09-10T13:59:54.870Z"
   }
 }

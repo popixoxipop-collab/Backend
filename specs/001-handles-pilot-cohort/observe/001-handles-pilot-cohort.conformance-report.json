@@ -1,0 +1,31 @@
+{
+  "sbf_conformance_report": "1",
+  "feature_id": "001-handles-pilot-cohort",
+  "feature_uid": "6bcbb17e-72fe-4049-92b5-712125c5c1ec",
+  "generated_at": "2026-09-10T14:01:15.252Z",
+  "source": {
+    "file": "w3-3-receipts.jsonl",
+    "outsideRepo": true
+  },
+  "counts": {
+    "receipt_lines": 4,
+    "noise_lines": 0,
+    "matched": 4,
+    "stale_contract_ref": 0,
+    "violations": 14,
+    "unsupported": 9,
+    "unsigned": 0,
+    "signature_invalid": 0
+  },
+  "by_operation": {
+    "findCohort": {
+      "matched": 4,
+      "stale_contract_ref": 0,
+      "violations": 23
+    }
+  },
+  "verification": {
+    "pubkey_given": true,
+    "require_signature": true
+  }
+}

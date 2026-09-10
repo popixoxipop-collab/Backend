@@ -1,9 +1,9 @@
-# Plan constraints (from brownfield-scan disposition: extend)
+# Plan constraints (from brownfield-scan disposition: reuse)
 
-Plan may ADD to the modules listed below, but every new field/endpoint must state why the existing one is insufficient. Do not duplicate existing functionality.
+Plan MUST NOT create new entities/controllers/endpoints for the modules listed below. Restrict scope to regression tests and documentation corrections only.
 
 ## Human note
-handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring; re-run after O14 scan-report portable-paths repair
+W3-3: re-baseline after adding @ObserveContract to CohortService.findCohort
 
 ## Existing modules this disposition applies to
 - `academicoperations` (score 144) -- see brownfield-scan.md for full detail

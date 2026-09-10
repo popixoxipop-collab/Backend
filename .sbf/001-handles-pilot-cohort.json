@@ -4,12 +4,12 @@
   "gates": {
     "scan": {
       "status": "pass",
-      "token": "sha256:672f70929af76a01d4a886efaa26c7cac9e2f4ba65d6db61a37283210ab1796a",
+      "token": "sha256:80b2b704cdeac37d927fcf57799891a6b5aeda172ecbd0df14cac4c0b41c8048",
       "inputs": {
-        "scan_report_hash": "a5f3ff4eb85a6e5838e1c1fee60f1a28ff53dc4cd3b8b773472c9d60c93c7c40",
+        "scan_report_hash": "23558fa3bf318cf136da714c6d41c78b36b9f9cd5146d6b1f1c86e23df9e894e",
         "source_file:src/main/java/com/bigproject/backend/BackendApplication.java": "899b3c04d146aafc119357ca400ea6f98a40cf725f36800717f415850d6da49a",
         "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/application/ClassroomService.java": "d32d2478f347eeab5fdee7eae29c00a32024c30292e0b338a78c61da22fe9287",
-        "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/application/CohortService.java": "f7e8675b998682d9a7cb623e372f2ce1193f046c8f102eed795f2bb082276025",
+        "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/application/CohortService.java": "ebdac7e98420894b7256a1469ad19eb1198e6408895b8ed8ef474359af122fb7",
         "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/domain/AcademicOperationsErrorCode.java": "30f289a82f8100d7174c05bc80ff69143e87216b3f854dce1972710907a77b9d",
         "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/domain/ClassMembership.java": "6876ab89d0bd2dbf8aba6a7e9c1fc60b9f94f413245edd8803e03fa3e50c1080",
         "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/domain/Classroom.java": "04f4cabb889dcbabfc01dd75c153c137b495faf7941ef61f8fe09062ad3c4f72",
@@ -703,15 +703,15 @@
         "source_file:src/main/java/com/bigproject/backend/global/validation/RetentionPolicy.java": "af423085752f516baf74bb625d9767a4835a61d56ecf8789c6099e4d0417dbb1",
         "spec_hash": null
       },
-      "at": "2026-09-10T05:36:40.894Z",
+      "at": "2026-09-10T13:59:54.932Z",
       "evidence": {
         "verdict": "collision",
-        "disposition_mode": "extend"
+        "disposition_mode": "reuse"
       }
     },
     "contract": {
       "status": "pass",
-      "token": "sha256:5b8771d49f96ae34a5bdcc9cbf8564f2c8289532b67cfc46d48726db1901aa47",
+      "token": "sha256:fbd382d00d377647112856f6b5e7e91edbedfa7c4f64bcb207b78c536ddae3c5",
       "inputs": {
         "contract_hash": "3f52b6e441cda806d877f87ea35ff6417c5effee89b3105ec5e0a25bafd364ef",
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/domain/ClassMembership.java": "6876ab89d0bd2dbf8aba6a7e9c1fc60b9f94f413245edd8803e03fa3e50c1080",
@@ -741,11 +741,11 @@
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomManagersRequest.java": "a0c1b89cab5e5bf7792264740d3522b5dc45cf6201f5ee612a94d6302e502d09",
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomRequest.java": "46fe144f097c4c46845d4498a29ddcb386453792dba24224978fe5034c7ee28d",
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateCohortRequest.java": "25a4b11a6ede832e82f698a8e8d25c022c72e3f71948b3e7f1c3059a53dde914",
-        "openapi_snapshot_hash": "b3a096a6ecf13365e061dc167226ccc71e4a228c7133a76bbe46b31943ad38c6",
+        "openapi_snapshot_hash": "7a46113ca5be1e840f40a222dbde14400c295108b37eb9769f910b1b86dcb32e",
         "resolution_hash": null,
-        "scan_report_hash": "a5f3ff4eb85a6e5838e1c1fee60f1a28ff53dc4cd3b8b773472c9d60c93c7c40"
+        "scan_report_hash": "23558fa3bf318cf136da714c6d41c78b36b9f9cd5146d6b1f1c86e23df9e894e"
       },
-      "at": "2026-09-10T05:43:25.991Z",
+      "at": "2026-09-10T14:00:42.558Z",
       "evidence": {
         "operation_count": 14,
         "endpoint_count": 14,
@@ -756,7 +756,7 @@
         "expired_waivers": 0,
         "openapi": {
           "applied": true,
-          "document_hash": "ad4bfbd44659c91102ce36deab927f1a9e57f714b77aad714cd4f7a925ed7f76",
+          "document_hash": "cf55fed06d1d4ec892c60b8dbcdee0359a1af62a4775568570c0c7d4a0e44efd",
           "path_prefix": "/api/v0",
           "prefix_origin": "inferred",
           "schema_projection": {
@@ -834,6 +834,20 @@
       "at": "2026-09-03T13:55:57.522Z",
       "evidence": {
         "resolverStubs": []
+      }
+    },
+    "conformance": {
+      "status": "pass",
+      "token": "sha256:552788c44719f9f2c3932e13dbccdeb206f1ef23c0e4911aaa590d17c8bef2f8",
+      "inputs": {
+        "conformance_report_hash": "c40b130a675463f9b9835521bcb1bf1c325cf8171a769537d9b855c8b659311f",
+        "contract_hash": "3f52b6e441cda806d877f87ea35ff6417c5effee89b3105ec5e0a25bafd364ef"
+      },
+      "at": "2026-09-10T14:01:15.257Z",
+      "evidence": {
+        "receipt_count": 4,
+        "matched": 4,
+        "violations": 14
       }
     }
   }

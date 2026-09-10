@@ -272,7 +272,7 @@
 
 ## Disposition
 
-**Mode**: `extend` (recorded 2026-09-10T05:36:40.767Z)
+**Mode**: `reuse` (recorded 2026-09-10T13:59:54.870Z)
 
-handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring; re-run after O14 scan-report portable-paths repair
+W3-3: re-baseline after adding @ObserveContract to CohortService.findCohort
 
