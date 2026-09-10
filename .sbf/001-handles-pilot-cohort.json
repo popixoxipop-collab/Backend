@@ -711,7 +711,7 @@
     },
     "contract": {
       "status": "pass",
-      "token": "sha256:d3213aa63be29a022741f0d4552046db7735288c8f635e57d1880c18774e1973",
+      "token": "sha256:5b8771d49f96ae34a5bdcc9cbf8564f2c8289532b67cfc46d48726db1901aa47",
       "inputs": {
         "contract_hash": "3f52b6e441cda806d877f87ea35ff6417c5effee89b3105ec5e0a25bafd364ef",
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/domain/ClassMembership.java": "6876ab89d0bd2dbf8aba6a7e9c1fc60b9f94f413245edd8803e03fa3e50c1080",
@@ -741,11 +741,11 @@
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomManagersRequest.java": "a0c1b89cab5e5bf7792264740d3522b5dc45cf6201f5ee612a94d6302e502d09",
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateClassroomRequest.java": "46fe144f097c4c46845d4498a29ddcb386453792dba24224978fe5034c7ee28d",
         "module_file:src/main/java/com/bigproject/backend/domain/academicoperations/presentation/dto/UpdateCohortRequest.java": "25a4b11a6ede832e82f698a8e8d25c022c72e3f71948b3e7f1c3059a53dde914",
-        "openapi_snapshot_hash": "7d01d9a814683f9fb321c387f0bfcfcd0f2b560dfa249268edf9fe62f2e4eaf3",
+        "openapi_snapshot_hash": "b3a096a6ecf13365e061dc167226ccc71e4a228c7133a76bbe46b31943ad38c6",
         "resolution_hash": null,
-        "scan_report_hash": "fa5c65bdaccacaa177deaf84188215a769c7a6b10283d13465aab6261edf8651"
+        "scan_report_hash": "a5f3ff4eb85a6e5838e1c1fee60f1a28ff53dc4cd3b8b773472c9d60c93c7c40"
       },
-      "at": "2026-09-03T14:10:35.974Z",
+      "at": "2026-09-10T05:43:25.991Z",
       "evidence": {
         "operation_count": 14,
         "endpoint_count": 14,
@@ -756,7 +756,7 @@
         "expired_waivers": 0,
         "openapi": {
           "applied": true,
-          "document_hash": "e75e509d6de04d6c4aeba13ce112594459926f2124c42a0185ba9e7fb903883e",
+          "document_hash": "ad4bfbd44659c91102ce36deab927f1a9e57f714b77aad714cd4f7a925ed7f76",
           "path_prefix": "/api/v0",
           "prefix_origin": "inferred",
           "schema_projection": {
