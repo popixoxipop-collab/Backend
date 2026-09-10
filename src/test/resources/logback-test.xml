@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  W3-3 (D-runtime-conformance-receipts): routes the "bskel.observe.receipts" SLF4J logger to a
+  real file, test scope only. `bskel observe emit`'s own postEmitNotes says plainly this is NEVER
+  done automatically: bskel never edits a target's logging config. This file is that deliberate
+  manual step, recorded as one, not a generated artifact.
+-->
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+
+	<appender name="OBSERVE_RECEIPTS" class="ch.qos.logback.core.FileAppender">
+		<file>${OBSERVE_RECEIPTS_FILE:-build/observe-receipts.jsonl}</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="bskel.observe.receipts" level="INFO" additivity="false">
+		<appender-ref ref="OBSERVE_RECEIPTS" />
+	</logger>
+</configuration>

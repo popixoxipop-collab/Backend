@@ -81,6 +81,20 @@ class HandlesCohortHttpAuthIntegrationTest {
 		registry.add("spring.datasource.password", () -> System.getenv().getOrDefault("BSKEL_PILOT_DATABASE_PASSWORD", ""));
 	}
 
+	// W3-3: optional, unlike the DB URL above -- unset means ContractObservationAspect's own
+	// @Value("${bskel.observe.signing-key-pem:}") falls back to its empty-string default and every
+	// receipt stays unsigned, exactly the backward-compatible behavior D-runtime-conformance-
+	// receipts' cryptographic-attestation Update note documents. Wired the same way the DB URL
+	// above already is -- a human decides where the real secret value comes from (here: an env var
+	// this W3-3 pilot run set from a real `bskel attest keygen` output), bskel never chooses it.
+	@DynamicPropertySource
+	static void observeSigningKey(DynamicPropertyRegistry registry) {
+		String pem = System.getenv("BSKEL_OBSERVE_SIGNING_KEY_PEM");
+		if (pem != null && !pem.isBlank()) {
+			registry.add("bskel.observe.signing-key-pem", () -> pem);
+		}
+	}
+
 	@Autowired
 	private MockMvc mockMvc;
 	@Autowired

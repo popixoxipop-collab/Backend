@@ -7,6 +7,7 @@ import com.bigproject.backend.domain.academicoperations.domain.Cohort;
 import com.bigproject.backend.domain.academicoperations.domain.CohortStatus;
 import com.bigproject.backend.domain.academicoperations.infrastructure.CohortRepository;
 import com.bigproject.backend.global.handle.RecordHandleSnapshot;
+import com.bigproject.backend.global.observe.ObserveContract;
 import com.bigproject.backend.domain.organization.domain.OrganizationPolicy;
 import com.bigproject.backend.domain.organization.infrastructure.OrganizationPolicyRepository;
 import lombok.RequiredArgsConstructor;
@@ -70,6 +71,7 @@ public class CohortService {
     // no personal/trainee data) -- an explicit, considered "empty" decision, not an unconsidered
     // default. See DECISIONS.md for the full record.
     @RecordHandleSnapshot(resourceType = "Cohort", operationId = "findCohort", resourceUidParam = 0)
+    @ObserveContract(operationId = "findCohort")
     public Cohort findCohort(UUID cohortId, UUID orgId) {
         return cohortRepository.findByCohortIdAndOrgIdAndDeletedAtIsNull(cohortId, orgId)
                 .orElseThrow(() -> new ApiException(AcademicOperationsErrorCode.COHORT_NOT_FOUND));
