@@ -272,7 +272,7 @@
 
 ## Disposition
 
-**Mode**: `extend` (recorded 2026-09-03T14:09:45.257Z)
+**Mode**: `extend` (recorded 2026-09-10T05:36:40.767Z)
 
-handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring
+handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring; re-run after O14 scan-report portable-paths repair
 

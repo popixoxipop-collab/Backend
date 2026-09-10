@@ -4,9 +4,9 @@
   "gates": {
     "scan": {
       "status": "pass",
-      "token": "sha256:3419aa812621048473dc841caa847c6aaff0ec37b469ba68e42e3c9bbaa2565e",
+      "token": "sha256:672f70929af76a01d4a886efaa26c7cac9e2f4ba65d6db61a37283210ab1796a",
       "inputs": {
-        "scan_report_hash": "fa5c65bdaccacaa177deaf84188215a769c7a6b10283d13465aab6261edf8651",
+        "scan_report_hash": "a5f3ff4eb85a6e5838e1c1fee60f1a28ff53dc4cd3b8b773472c9d60c93c7c40",
         "source_file:src/main/java/com/bigproject/backend/BackendApplication.java": "899b3c04d146aafc119357ca400ea6f98a40cf725f36800717f415850d6da49a",
         "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/application/ClassroomService.java": "d32d2478f347eeab5fdee7eae29c00a32024c30292e0b338a78c61da22fe9287",
         "source_file:src/main/java/com/bigproject/backend/domain/academicoperations/application/CohortService.java": "f7e8675b998682d9a7cb623e372f2ce1193f046c8f102eed795f2bb082276025",
@@ -703,7 +703,7 @@
         "source_file:src/main/java/com/bigproject/backend/global/validation/RetentionPolicy.java": "af423085752f516baf74bb625d9767a4835a61d56ecf8789c6099e4d0417dbb1",
         "spec_hash": null
       },
-      "at": "2026-09-03T14:09:45.321Z",
+      "at": "2026-09-10T05:36:40.894Z",
       "evidence": {
         "verdict": "collision",
         "disposition_mode": "extend"

@@ -3,7 +3,7 @@
 Plan may ADD to the modules listed below, but every new field/endpoint must state why the existing one is insufficient. Do not duplicate existing functionality.
 
 ## Human note
-handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring
+handles pilot for existing Cohort resource (ROADMAP Phase 4) -- no new endpoints, only handle/registry/recover wiring around the existing CohortController; re-disposition after HandleService REQUIRES_NEW fix + CurrentUserResolver wiring; re-run after O14 scan-report portable-paths repair
 
 ## Existing modules this disposition applies to
 - `academicoperations` (score 144) -- see brownfield-scan.md for full detail
